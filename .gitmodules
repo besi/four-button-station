@@ -4,3 +4,6 @@
 [submodule "lib/esp-01m"]
 	path = lib/esp-01m
 	url = https://github.com/besi/kicad-esp-01m.git
+[submodule "lib/c8-inlet"]
+	path = lib/c8-inlet
+	url = https://github.com/besi/kicad-c8-inlet
