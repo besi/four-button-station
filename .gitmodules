@@ -1,0 +1,6 @@
+[submodule "lib/c8-inlet"]
+	path = lib/c8-inlet
+	url = https://github.com/besi/kicad-c8-inlet
+[submodule "lib/radio-receiver"]
+	path = lib/radio-receiver
+	url = https://github.com/besi/kicad-radio-receiver
