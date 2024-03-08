@@ -4,4 +4,5 @@
   (lib (name "jlc_footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/jlc_footprints.pretty")(options "")(descr ""))
   (lib (name "c8-inlet")(type "KiCad")(uri "${KIPRJMOD}/lib/c8-inlet/c8-inlet.pretty")(options "")(descr ""))
   (lib (name "radio-receiver")(type "KiCad")(uri "${KIPRJMOD}/lib/radio-receiver/radio-receiver.pretty")(options "")(descr ""))
+  (lib (name "as12ap")(type "KiCad")(uri "${KIPRJMOD}/lib/as12ap/as12ap.pretty")(options "")(descr ""))
 )
