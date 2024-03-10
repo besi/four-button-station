@@ -1,4 +1,4 @@
-(module "MICRO-USB-SMD_1050171001" (layer F.Cu) (tedit 65EAF66D)
+(module "MICRO-USB-SMD_1050171001" (layer F.Cu) (tedit 65EDED3C)
   (descr "MICRO-USB-SMD_1050171001 footprint")
   (tags "MICRO-USB-SMD_1050171001 footprint C505111")
   (attr through_hole)

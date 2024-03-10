@@ -1,4 +1,4 @@
-(module "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (layer F.Cu) (tedit 65E4F2FA)
+(module "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (layer F.Cu) (tedit 65EDDC09)
   (descr "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint")
   (tags "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint C20526")
   (attr smd)
