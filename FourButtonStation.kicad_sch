@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FourButtonStation")
+    (date "2024-03-11")
+    (rev "2.0 - aa14c0")
+  )
+
   (lib_symbols
     (symbol "+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
