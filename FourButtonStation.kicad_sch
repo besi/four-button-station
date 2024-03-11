@@ -7,7 +7,7 @@
   (title_block
     (title "FourButtonStation")
     (date "2024-03-11")
-    (rev "2.0 - aa14c0")
+    (rev "2.0 - 95fb5d")
   )
 
   (lib_symbols
