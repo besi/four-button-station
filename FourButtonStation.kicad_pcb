@@ -6135,7 +6135,7 @@
     (property "ki_keywords" "C25804")
     (path "/86c4a322-9e06-40c0-84ee-ee100096c2a5")
     (attr smd)
-    (fp_text reference "R14" (at 0 -2.660605 90) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -2.660605 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3280e75-ea04-4bfd-9b68-e2ef0019c914)
     )
@@ -6488,7 +6488,7 @@
     (property "ki_keywords" "C25804")
     (path "/3570235c-863b-4d3d-ac83-9c6d565c18d0")
     (attr smd)
-    (fp_text reference "R13" (at 0 -2.660605) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -2.660605) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d128e455-c492-424d-8585-1bca918fa444)
     )
@@ -7019,7 +7019,7 @@
     (property "ki_keywords" "802.11 Wi-Fi")
     (path "/6811ff06-2eba-4edf-9737-f260a837b4a9")
     (attr smd)
-    (fp_text reference "U3" (at -2.350305 -9.853569 90) (layer "F.SilkS")
+    (fp_text reference "U3" (at -2.350305 -9.853569 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18a5a79c-0f8f-4558-88a0-e15a373aebdd)
     )
