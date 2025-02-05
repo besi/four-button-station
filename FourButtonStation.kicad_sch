@@ -7,7 +7,7 @@
   (title_block
     (title "FourButtonStation")
     (date "2025-02-05")
-    (rev "2.0")
+    (rev "2.1-beta")
   )
 
   (lib_symbols
@@ -5166,7 +5166,7 @@
   )
 
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 105.41 62.23 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 85f1509f-0979-43de-8c07-6f18f0b20652)
     (property "Reference" "J10" (at 100.33 59.69 0)
       (effects (font (size 1.27 1.27)))
