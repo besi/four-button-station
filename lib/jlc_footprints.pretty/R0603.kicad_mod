@@ -1,6 +1,6 @@
-(module "R0603" (layer F.Cu) (tedit 65F0EA4E)
+(module "R0603" (layer F.Cu) (tedit 67D58659)
   (descr "R0603 footprint")
-  (tags "R0603 footprint C25804")
+  (tags "R0603 footprint C23234")
   (attr smd)
   (fp_text reference REF** (at 0 -2.660605) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

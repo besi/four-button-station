@@ -9191,84 +9191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_symbols:0603WAF3302T5E")
-		(at 33.02 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04ccff14-2323-420c-9688-9d95a9ae6439")
-		(property "Reference" "R1"
-			(at 33.02 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "jlc_footprints:R0603"
-			(at 33.02 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 30.734 54.483 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4216"
-			(at 33.02 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a92a833-f6d1-478a-ac08-fde6a26b09da")
-		)
-		(pin "1"
-			(uuid "4eb7b8e6-8b73-471f-a37d-cab539566f8d")
-		)
-		(instances
-			(project "FourButtonStation"
-				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 147.32 0)
 		(unit 1)
@@ -9330,6 +9252,84 @@
 			(project "FourButtonStation"
 				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlc_symbols:0603WAF3302T5E")
+		(at 33.02 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f3ae403-ecc8-4488-9855-6adfefd491dc")
+		(property "Reference" "R6"
+			(at 33.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7k5"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jlc_footprints:R0603"
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 30.734 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23234"
+			(at 33.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dfed681-e06f-42d2-b1e5-7ce458dfcdc6")
+		)
+		(pin "1"
+			(uuid "eafb1f9f-67df-4e5a-84ca-cd31b1dee5df")
+		)
+		(instances
+			(project "FourButtonStation"
+				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9609,84 +9609,6 @@
 			(project "FourButtonStation"
 				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jlc_symbols:0603WAF3302T5E")
-		(at 33.02 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1edfa394-6f12-4a72-ae12-37f706d5cd32")
-		(property "Reference" "R10"
-			(at 33.02 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 33.02 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "jlc_footprints:R0603"
-			(at 33.02 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 30.734 186.563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4216"
-			(at 33.02 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77ce86a4-3742-4bef-a96c-c0c5f7137b70")
-		)
-		(pin "1"
-			(uuid "20d6217b-1a8c-4adc-849d-be41aca4cea5")
-		)
-		(instances
-			(project "FourButtonStation"
-				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11826,84 +11748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_symbols:0603WAF3302T5E")
-		(at 33.02 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60dc59d0-23a9-46e4-a7a0-be2b2ebb0a1f")
-		(property "Reference" "R6"
-			(at 33.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 33.02 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "jlc_footprints:R0603"
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 30.734 97.663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4216"
-			(at 33.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e3bd3d4-d18e-4478-8e3a-6b0feac31200")
-		)
-		(pin "1"
-			(uuid "9b0feb26-9837-402b-9572-ceaa7a195b95")
-		)
-		(instances
-			(project "FourButtonStation"
-				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 179.07 124.46 270)
 		(unit 1)
@@ -13904,84 +13748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "jlc_symbols:0603WAF3302T5E")
-		(at 33.02 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c165c6f-8b47-45b7-8234-d5d768f91f38")
-		(property "Reference" "R8"
-			(at 33.02 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 33.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "jlc_footprints:R0603"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 30.734 142.113 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4216"
-			(at 33.02 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53749610-0a1b-4e96-8bf0-f86798d625cb")
-		)
-		(pin "1"
-			(uuid "6bceeb46-e5a5-470e-baa0-8ef0a84c572e")
-		)
-		(instances
-			(project "FourButtonStation"
-				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jlc_symbols:10118194-0001LF")
 		(at 190.5 119.38 0)
 		(mirror y)
@@ -15413,6 +15179,84 @@
 		)
 	)
 	(symbol
+		(lib_id "jlc_symbols:0603WAF3302T5E")
+		(at 33.02 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc731b34-fcdb-4fd4-9723-2c57b6e18f9b")
+		(property "Reference" "R8"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7k5"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jlc_footprints:R0603"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 30.734 142.113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23234"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9a662cc-38c4-4112-9b44-c985ef6f0617")
+		)
+		(pin "1"
+			(uuid "dcc8170d-c4bf-4f3e-adf7-821cb05e3ba5")
+		)
+		(instances
+			(project "FourButtonStation"
+				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 184.15 173.99 0)
 		(unit 1)
@@ -15469,6 +15313,84 @@
 			(project "FourButtonStation"
 				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
 					(reference "Logo1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlc_symbols:0603WAF3302T5E")
+		(at 33.02 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d187ad45-ff0c-493e-9220-64a3907bf57a")
+		(property "Reference" "R1"
+			(at 33.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7k5"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jlc_footprints:R0603"
+			(at 33.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 30.734 54.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23234"
+			(at 33.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2b14891-8bd0-408d-8be3-95bb86b422d3")
+		)
+		(pin "1"
+			(uuid "1b8e83ed-b291-4d54-b51d-f9eb2322cce8")
+		)
+		(instances
+			(project "FourButtonStation"
+				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -16382,6 +16304,84 @@
 			(project "FourButtonStation"
 				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlc_symbols:0603WAF3302T5E")
+		(at 33.02 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeb95714-2020-4678-8b54-1befac571726")
+		(property "Reference" "R10"
+			(at 33.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7k5"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jlc_footprints:R0603"
+			(at 33.02 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(at 30.734 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23234"
+			(at 33.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a06c1a6e-a4a2-4a84-9225-50b566e219fb")
+		)
+		(pin "1"
+			(uuid "c0ad66c3-fdae-4ff5-8f0c-57ecee6866c7")
+		)
+		(instances
+			(project "FourButtonStation"
+				(path "/fe8954b5-d30a-4533-a19e-bff77a7cd4d5"
+					(reference "R10")
 					(unit 1)
 				)
 			)
