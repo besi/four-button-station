@@ -1,7 +1,10 @@
 import machine
 import time
-radio_b = machine.Pin(2,machine.Pin.IN)
+from machine import ADC
+
+# Modified board. Radio b is connected to the ADC
 radio_a = machine.Pin(4,machine.Pin.IN)
+radio_b = ADC(0)
 radio_c = machine.Pin(15,machine.Pin.IN)
 radio_d = machine.Pin(13,machine.Pin.IN)
 
@@ -18,7 +21,7 @@ relay_4.off()
 
 while True:
     if radio_a() == True: print("A pressed"); relay_1.value(1-relay_1.value()); time.sleep(0.5)
-    if radio_b() == True: print("B pressed"); relay_2.value(1-relay_2.value()); time.sleep(0.5)
+    if radio_b.read()>500: print("B pressed"); relay_2.value(1-relay_2.value()); time.sleep(0.5)
     if radio_c() == True: print("C pressed"); relay_3.value(1-relay_3.value()); time.sleep(0.5)
     if radio_d() == True: print("D pressed"); relay_4.value(1-relay_4.value()); time.sleep(0.5)
 
