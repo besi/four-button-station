@@ -7521,6 +7521,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 41.91) (xy 256.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14206cc-9c5b-487f-9ef2-016c9453aab8")
+	)
+	(wire
+		(pts
 			(xy 27.94 186.69) (xy 26.67 186.69)
 		)
 		(stroke
@@ -8011,6 +8021,16 @@
 		)
 		(uuid "4b45a775-029c-46b6-b2bd-2637369a8074")
 	)
+	(text "TODO: GPIO2 is high at boot and boot fails if pulled low."
+		(exclude_from_sim no)
+		(at 331.978 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a5099fa-731b-457c-b8b8-ebafd79eefcf")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 127.635 19.685 0)
@@ -8262,7 +8282,7 @@
 	)
 	(global_label "RadioB"
 		(shape input)
-		(at 256.54 41.91 0)
+		(at 303.53 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8272,7 +8292,7 @@
 		)
 		(uuid "14674d1a-8af9-40e6-bb8f-7414ea46dc53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.117 41.91 0)
+			(at 313.107 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
